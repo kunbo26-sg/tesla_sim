@@ -24,8 +24,8 @@ Edge cases
 
 1. **Clone the Repository**:
    ```bash
-   git clone <repository-url>
-   cd sql-dependency-test
+   git clone https://github.com/kunbo26-sg/tesla_sim
+   cd dependency_graph
    ```
 2. **Install Dependencies**:
    ```bash

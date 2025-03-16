@@ -34,7 +34,7 @@ It does not allow for the removal of cars from the simulation (TBC)
 1. **Clone the Repository**:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/kunbo26-sg/tesla_sim
    cd autonomous_car_simulation
    ```
 
