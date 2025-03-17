@@ -54,10 +54,9 @@ class Simulation:
                 continue
 
             # Check existing cars if anything occupies the same spot
-            for car in self.cars:
-                if car.x == x and car.y == y:
-                    print(f"The location ({x},{y}) is already occupied by another car.")
-                    continue
+            if any(car.x == x and car.y == y for car in self.cars):
+                print(f"The location ({x},{y}) is already occupied by another car.")
+                continue
 
             if not (0 <= x < self.width and 0 <= y < self.height):
                 print(
